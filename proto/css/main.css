@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+html, body {
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    width: 100%;
+    color: #222;
+}
+
+.navbar {
+  padding: .4rem;
+}
+.bg-mycolor {
+    background-color: #a71930;
+}
+
+.site-title {
+    font-weight: 500;
+    color: white;
+}
+
+.navbar-nav li {
+     padding-right: 20px;
+}
+.nav-link {
+    font-size: 1.2em !important;
+}
+
+
+.carousel-inner img {
+    width: 100%;
+    height:100%;
+}
+.carousel-caption {
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
+}
+.carousel-caption h1 {
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px black;
+}
+.carousel-caption h3 {
+    font-size:300%;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px black;
+}
+.jumbotron{
+    padding; 1rem;
+    border-radius: 0;
+    background-color: #007cc3;
+    color: white;
+}
+
+.padding{
+    padding-bottom: 2rem;
+}
+.Welcome {
+    padding-top: 2rem;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.Welcome hr{
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.fa-android {
+    color: #a4c639;
+}
+.fa-bold {
+    color: #563d7c;
+}
+.fa-css3 {
+    color: #2163af;
+}
+
+.fa-android, .fa-bold, .fa-css3{
+    font-size: 4em;
+    margin: 1rem;
+}
+.fun{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.webp {
+    max-width: 100%;
+}
+.two-column-section {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.fix-it{
+    margin-bottom: 2rem;
+}
+.social a {
+    padding: 3rem;
+    font-size: 4.5rem;
+}
+.fa-facebook {
+    color: #3B5998;
+}
+.fa-twitter{
+    color: #33CCFF;
+}
+.fa-instagram {
+    color: #4E433C;
+}
+.fa-youtube {
+    color: #FF3333;
+}
+.fa-linkedin {
+    color: #4875B4;
+}
+
+.fa-facebook:hover, .fa-twitter:hover, .fa-instagram:hover, .fa-youtube:hover, .fa-linkedin:hover {
+    color: #d5d5d5;
+}
+
+footer {
+   background-color:  #3F3F3F;
+   color: #d5d5d5;
+   padding-top: 2.5rem;
+}
+
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+hr.light-all {
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+/* media queries */
+
+@media(max-width: 992px){
+    .social a {
+        font-size: 4em;
+        padding: 2rem;
+    }
+}
+
+@media(max-width: 768px){
+.carousel-caption {
+    top: 45%;
+}
+.carousel-caption h1 {
+    font-size: 350%;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px black;
+}
+.carousel-caption h3 {
+    font-size: 200%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px black;
+    }
+.carousel-caption .btn {
+    font-size: 95%;
+    padding: 8px 14px;
+}
+.display-4 {
+    font-size: 200%;
+}
+.social a {
+    font-size: 2.5em;
+    padding: 1.2rem;
+}
+}
+@media(max-width: 576px){
+.carousel-caption {
+    top: 40%;
+}
+.carousel-caption h1 {
+    font-size: 250%;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px black;
+}
+.carousel-caption h3 {
+    font-size: 110%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px black;
+    }
+.carousel-caption .btn {
+    font-size: 90%;
+    padding: 8px 14px;
+}
+.carousel-indicators{
+    display: none;
+}
+.display-4 {
+    font-size: 160%;
+}
+.social a {
+    font-size: 2em;
+    padding: .7rem;
+}
+
+}
